@@ -1,0 +1,33 @@
+@import url(./navbar.css);
+@import url(./menu.css);
+@import url(./main.css);
+
+@font-face {
+    font-family: montserrat;
+    src: url(../../assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: italic;
+    src: url(../../assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bgColor);
+    color: var(--White );
+    font-family: montserrat;
+}
+
+:root{
+    --bgColor: #0c0c14;
+    --White: #f0f1f2;
+    --Gray: #434669;
+    --purple: #6941ff;
+}
+
+.purple{
+    color: var(--purple);
+}

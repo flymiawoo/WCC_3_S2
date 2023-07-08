@@ -1,0 +1,34 @@
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    margin: 1% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    backdrop-filter: blur(40px);    
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo i{
+    margin-top: 2%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    /* padding: 2%; */
+}
+
+.logo i, span{
+    padding: 2%;
+}
+
+#menu-icon{
+    z-index: 99;
+    margin: 0 15%;
+}

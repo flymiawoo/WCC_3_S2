@@ -1,0 +1,32 @@
+.menu{
+    padding: 1.5%;
+        width: 10%;
+    /* height: 100vh; */
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    /* padding: 3% 1.5%; */
+}
+
+.menu-container i{
+    padding: 10% 0;
+    color: var(--Gray);
+}
+
+.menu-container i:hover{
+    color: var(--purple);
+}
+.menu-container .active{
+    color: var(--purple);
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
