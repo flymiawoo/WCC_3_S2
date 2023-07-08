@@ -1,4 +1,4 @@
-const menu = document.getElementById('menu-icon')
+const menu = document.querySelector('.logo') //nosoloiko mba le logo no potserina de mipotra leizy
 const menuItem = document.getElementById('menu-container');
 const divMenu = document.querySelector('.menu');
 
@@ -8,7 +8,7 @@ let indicateur=false;
 
 menu.addEventListener('click', ()=>{
     if (!indicateur){
-        console.log('yesss?..., fa ina ko ty zavatra ty ohh!!?')
+        // console.log('yesss?..., fa ina ko ty zavatra ty ohh!!?')
         menuItem.classList.add('show')
         divMenu.style.top="100px";
         indicateur=true;
@@ -27,12 +27,12 @@ function close(){
         },100)
     }
 
-function getClass(x){
+function getit(x){
     return document.querySelector(x);
 }
 
 function noText(it){
-    
+    return it.innerHtml="";
 }
 
 // manao animation anle zaza fa tsy mety tafavoka
@@ -40,3 +40,9 @@ let zaza=document.querySelector(".zaza");
     zaza.style.display="flex";
     zaza.style.left="120px";
 
+window.addEventListener('resize', ()=>{
+    if (window.width<="720px"){
+        let its = getit(".inMenu");
+        its.classList.add("hide")
+    }
+})

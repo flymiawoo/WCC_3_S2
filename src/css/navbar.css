@@ -106,15 +106,15 @@ nav input{
 }
 
 .tia{
-    position: absolute;
+    /* position: absolute; */
     left: 70px;
 }
 
 .zaza{
+    /* display: none; */
+    /* position: absolute; */
     display: none;
-    position: absolute;
-    display: none;
-    left: 0;
+    /* left: 0; */
     padding: 5px;
     background: var(--White);
     color: var(--Gray);
@@ -134,6 +134,10 @@ nav input{
     display: none;
 }
 .text-barre{
+    display: block;
+}
+
+.logo span{
     display: block;
 }
 
@@ -166,5 +170,8 @@ nav input{
     }
     .search-container{
         width: auto;
+    }
+    .logo span{
+        display: none;
     }
 }
