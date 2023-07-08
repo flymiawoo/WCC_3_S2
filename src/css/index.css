@@ -20,6 +20,7 @@
 }
 
 body{
+    position: relative;
     width: 100%;
     box-sizing: border-box;
     background-color: var(--bgColor);
@@ -31,8 +32,8 @@ body{
 :root{
     --bgColor: #0c0c14;
     --White: #f0f1f2;
-    --Gray: #434669;
-    --purple: #6941ff;
+    --Gray: #8b8c9f;
+    --purple: #9a5af3;
 }
 
 .purple{

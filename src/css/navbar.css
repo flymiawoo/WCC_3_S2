@@ -9,9 +9,13 @@ nav i, nav span{
 nav input{
     color: var(--White);
 }
-
+.petiteNav{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
 .nav-bar{
-    position: fixed;
+    position:  fixed;
     z-index: 100;
     width: 100%;
     /* margin: 1% 0; */
@@ -142,6 +146,9 @@ nav input{
 }
 
 @media screen and (max-width: 900px) {
+    .nav-bar{
+        position: fixed;
+    }
     .logo{
         display: flex;
         width: 100%;

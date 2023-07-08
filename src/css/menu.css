@@ -3,17 +3,18 @@
     z-index: 99;
     padding: 1.5%;
         width: 200px;
-        top: -100%;
+        top: -200%;
         left: 20px;
         background: var(--bgMenu);
-        border-radius: 0 15px 15px 0;
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
     transition: 0.3s;
+    /* box-shadow: 5px 5px 10px var(--menuShadow1), -1px -1px 10px var(--menuShadow2); */
 }
 
 .menu-container{
     display: flex;
     flex-direction: column;
-    /* background: var(--bgMenu); */
     border-radius: 5px;
     
 /* mba jereo/ovay kely ity ky Fara ah! ↓↓↓ */
@@ -26,12 +27,12 @@
     padding: 10% 5%;
     color: var(--Gray);
     background: transparent;
-    /* padding: 5px; */
     cursor: pointer;
 }
 
 .menu-container i:hover{
-    color: var(--purple);
+    color: var(--White);
+    text-shadow: 1px 1px 5px rgb(146, 77, 77);
 }
 .menu-container .active{
     color: var(--purple);
@@ -44,7 +45,16 @@
 .show{
     display: flex;
 }
+.off{
+    display: none;
+}
 
-/* @media screen and (max-width: 720px){
 
-} */
+@media screen and (max-width: 720px){
+    .off{
+        display: block;
+    }
+    #menu-container{
+        display: none;
+    }
+}
