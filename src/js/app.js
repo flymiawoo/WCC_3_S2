@@ -20,3 +20,17 @@ menu.addEventListener('click', ()=>{
     // zay fa mipotra sy miafina le menu
     // fa mbola tokony amboarina :)  ♥ ☻
 })
+
+
+// manao animation anle zaza fa tsy mety tafavoka
+let zaza=document.querySelector(".zaza");
+
+function animerZaza(){
+    let x=0
+    zaza.style.display="flex";
+    zaza.style.left="50%";
+}
+
+setTimeout(()=>{
+    animerZaza();
+}, 1000)

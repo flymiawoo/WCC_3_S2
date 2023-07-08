@@ -28,6 +28,7 @@ nav div{
 
 .logo {
     display: flex;
+    position: relative;
     flex-direction: row;
     align-items: center;
     font-size: 26px;
@@ -79,4 +80,14 @@ nav div{
     display: flex;
     padding: 20px;
     justify-content: right;
+}
+
+.zaza{
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 5px;
+    background: var(--White);
+    color: var(--Gray);
+    border-radius: 0 5px 15px 5px;
 }
