@@ -78,6 +78,7 @@ button a{
 
 @media screen and (max-width: 695px){
     .main-container{
+        padding-top: 5%;
         display: flex;
         flex-direction: column;
     }
