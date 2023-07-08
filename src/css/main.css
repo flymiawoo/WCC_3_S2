@@ -21,6 +21,7 @@
 }
 
 .welcome h1{
+    font-family: Italic;
     width: 100%;
     margin: 5% 0% ;
     background-image: linear-gradient(to left, var(--purple) 50%, #ff1301 100%);
