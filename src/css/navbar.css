@@ -1,9 +1,13 @@
-nav div{
+/* nav div{
     width: 100%;
-}
+} */
 
 nav i, nav span{
     cursor: pointer;
+}
+
+nav input{
+    color: var(--White);
 }
 
 .nav-bar{
@@ -20,11 +24,13 @@ nav i, nav span{
 .nav-container{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: right;
 }
 
-.nav-container div{
+/* .nav-container div{
     margin: auto;
-}
+} */
 
 .logo i{
     margin-top: 2%;
@@ -71,6 +77,7 @@ nav i, nav span{
     display: flex;
     align-items: center;
     justify-content: right;
+    width: 50%;
 }
 
 .search{
@@ -126,7 +133,9 @@ nav i, nav span{
 #inf900{
     display: none;
 }
-
+.text-barre{
+    display: block;
+}
 
 @media screen and (max-width: 900px) {
     .logo{
@@ -142,5 +151,20 @@ nav i, nav span{
     }
     .search{
         width: 100%;
+    }
+    nav div{
+        width: auto;
+    }
+    /* .text-barre{
+        display: none;
+    } */
+}
+
+@media screen and (max-width:775px){
+    .text-barre{
+        display: none;
+    }
+    .search-container{
+        width: auto;
     }
 }

@@ -1,7 +1,7 @@
 :root{
     /* Nanaovako test Ftsn fa afaka ovaindry */
     --couleurBarreRecherche: rgb(40, 51, 54);
-    --bgMenu:white;
+    --bgMenu:rgb(172, 213, 225);
     --boxShadowMenu:#673a7f;
     --boxShadowMenu2: #bc99cf;
 }
