@@ -16,6 +16,46 @@
 .welcome{
     display: flex;
     flex-direction: column;
+    padding: 5% 0;
+    width: 100%;
+    height: 100%;
+    /* justify-content: center; */
+}
+
+.welcome h1{
+    margin: 5% 0% ;
+    font-size: 100px;
+    background-image: linear-gradient(to left, var(--purple) 50%, #ff1301 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear;
+    /* animation-iteration-count: infinite; */
+}
+
+.welcome p{
+    /* padding-top: 5%; */
+    animation: slideRight 2s ease forwards;
+}
+
+#btn-primary{
+    width: 30%;
+    margin: 10% 0;
+    padding: 2%;
+    font-weight: 600;
+    background-color: var(--purple);
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+#btn-primary:hover{
+    letter-spacing: 2px;
+    transition: all .3s;
+    background-color: transparent;
+    border-color: var(--purple);
 }
 
 .container-image img{
