@@ -2,6 +2,10 @@ nav div{
     width: 100%;
 }
 
+nav i, nav span{
+    cursor: pointer;
+}
+
 .nav-bar{
     position: fixed;
     z-index: 100;
@@ -42,7 +46,7 @@ nav div{
 
 #menu-icon{
     z-index: 99;
-    margin:0 0 0 15%   ;
+    margin:0 0 0 35px   ;
 }
 
 /* // barre de recherche */
@@ -69,6 +73,14 @@ nav div{
     justify-content: right;
 }
 
+.search{
+    width: 80%;
+    display: flex;
+}
+#search-bar{
+    width: 100%;
+}
+
 .search ,.fa-search {
     background: var(--couleurBarreRecherche);
     padding: 7px;
@@ -82,12 +94,53 @@ nav div{
     justify-content: right;
 }
 
+.settings i{
+    margin: auto 15px;
+}
+
+.tia{
+    position: absolute;
+    left: 70px;
+}
+
 .zaza{
     display: none;
     position: absolute;
+    display: none;
     left: 0;
     padding: 5px;
     background: var(--White);
     color: var(--Gray);
     border-radius: 0 5px 15px 5px;
+}
+
+.fa-user{
+    padding: 2px ;
+    border-radius: 50%;
+    background: var(--Gray);
+}
+
+#sup900{
+    display: block;
+}
+#inf900{
+    display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    .logo{
+        display: flex;
+        width: 100%;
+        /* margin-right: auto; */
+    }
+    #sup900{
+        display: none;
+    }
+    #inf900{
+        display: block;
+    }
+    .search{
+        width: 100%;
+    }
 }
