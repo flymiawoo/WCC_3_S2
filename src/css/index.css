@@ -1,6 +1,7 @@
 @import url(./navbar.css);
 @import url(./menu.css);
 @import url(./main.css);
+@import url(./root.css);
 
 @font-face {
     font-family: montserrat;
