@@ -1,18 +1,28 @@
 .menu{
+    position: absolute;
+    z-index: 99;
     padding: 1.5%;
         width: 10%;
-    /* height: 100vh; */
+        top: -100%;
 }
 
 .menu-container{
     display: flex;
     flex-direction: column;
+    /* background: var(--bgMenu); */
+    border-radius: 5px;
+    
+/* mba jereo/ovay kely ity ky Fara ah! ↓↓↓ */
+    /* box-shadow: 5px 2px 5px var(--boxShadowMenu), -5px -2px 5px var(--boxShadowMenu2); */  
+    /* ------------------------------- */
     /* padding: 3% 1.5%; */
 }
 
 .menu-container i{
-    padding: 10% 0;
+    padding: 10% 5%;
     color: var(--Gray);
+    background: transparent;
+    /* padding: 5px; */
 }
 
 .menu-container i:hover{

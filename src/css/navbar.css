@@ -4,6 +4,7 @@ nav div{
 
 .nav-bar{
     position: fixed;
+    z-index: 100;
     width: 100%;
     margin: 1% 0;
     display: flex;
@@ -53,6 +54,7 @@ nav div{
     /* position: absolute; */
     top: 0;
     right: 0;
+    cursor: text;
     padding: 5px;
     background-color: transparent;
     border: none;

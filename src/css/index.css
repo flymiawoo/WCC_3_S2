@@ -19,6 +19,7 @@
     box-sizing: border-box;
     background-color: var(--bgColor);
     color: var(--White );
+    transition: 0.3s;
     font-family: montserrat;
 }
 
