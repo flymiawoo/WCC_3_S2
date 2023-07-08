@@ -2,6 +2,7 @@
 @import url(./menu.css);
 @import url(./main.css);
 @import url(./root.css);
+@import url(./animation.css);
 
 @font-face {
     font-family: montserrat;
@@ -16,9 +17,13 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    width: 100%;
     box-sizing: border-box;
     background-color: var(--bgColor);
-    color: var(--White );
+    color: var(--White);
     transition: 0.3s;
     font-family: montserrat;
 }
