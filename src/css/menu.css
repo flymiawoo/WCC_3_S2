@@ -2,8 +2,9 @@
     position: absolute;
     z-index: 99;
     padding: 1.5%;
-        width: 10%;
+        width: 200px;
         top: -100%;
+        left: 20px;
 }
 
 .menu-container{
@@ -23,6 +24,7 @@
     color: var(--Gray);
     background: transparent;
     /* padding: 5px; */
+    cursor: pointer;
 }
 
 .menu-container i:hover{
