@@ -49,15 +49,17 @@
     background-color: var(--purple);
     border-color: transparent;
     border-radius: 5px;
+    animation: slideRight 2s ease forwards;
 }
 
 #btn-primary:hover{
     letter-spacing: 2px;
-    transition: all .3s;
+    transition: all 1s;
     background-color: transparent;
     border-color: var(--purple);
 }
 
 .container-image img{
     width: 100%;
+    animation: slideTop 2s ease forwards;
 }
