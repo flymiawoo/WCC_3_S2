@@ -1,4 +1,32 @@
- #game-container{
-    display: grid;
+ #game{
     margin: 0 4%;
  }
+
+ .game-container{
+    display: grid;
+    grid-template-areas: 
+    "item1 item2 item3 item3"
+    "item1 item4 item4 item5";
+ }
+
+
+ .game-item1{
+    grid-area: item1;
+ }
+
+ .game-item2{
+    grid-area: item2;
+ }
+
+ .game-item3{
+    grid-area: item3;
+ }
+
+ .game-item4{
+    grid-area: item4;
+ }
+
+ .game-item5{
+    grid-area: item5;
+ }
+  
