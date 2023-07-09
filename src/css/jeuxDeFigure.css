@@ -1,0 +1,67 @@
+*{
+    transition: 0.3s;
+}
+.plateforme{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e2dbdb38;
+    backdrop-filter: blur(12px);
+    /* color: var(--White); */
+    color: white;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.corp-pateform{
+    display: flex;
+}
+.figures{
+    position: relative;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #f9f9f9;
+}
+
+.figures:hover{
+    box-shadow:  2px 2px 5px rgb(37, 38, 38);
+}
+.figures:hover::before{
+    backdrop-filter: blur(10px);
+}
+.figures img , .figures::before{
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.a-trouver img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.before::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #2c292983;
+    top: 0;
+    backdrop-filter: blur(20px);
+    left: 0;
+}
+
+.en-tete-plateforme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.en-tete-plateforme div{
+    margin: 5px;
+}
