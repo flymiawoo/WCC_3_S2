@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/index.css">
     <link rel="stylesheet" href="./assets/fonts/FontAwesome/css/all.css">
+    <!-- <script src="./src/js/launchGames.js" defer></script> -->
+
     <title>Tia Zaza</title>
 </head>
 <body>
@@ -56,7 +58,7 @@
             <div class="welcome">
                 <h1>BIENVENUE</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nisi qui, fugit facilis voluptatibus numquam rem voluptatem reprehenderit nihil tenetur natus quisquam nesciunt quaerat aperiam, earum dolorum provident. Iusto, cupiditate.</p>
-                <button id="btn-primary"><a href="#game"><i class="fa fa-play"> Decouvrir</i></a></button>
+                <button id="btn-primary"><a href="#game">Decouvrir</a></button>
             </div>
 
             <div class="container-image">
@@ -66,20 +68,21 @@
     </div>
  
     <div id="game">
-        <h1>Recommandés</h1> 
-        <!-- efa misy accent -->
+        <h1>Recommandes</h1> 
+        <!-- asio accent io recommande io -->
 
         <div class="game-container">
             <div class="game-item1">
-
+                <button id="btn-primary" onclick="lancer_un_jeux()"><a href="#game"><i class="fa-solid fa-play"></i> Jouer</a></button>
             </div>
 
             <div class="game-item2">
-
+            
             </div>
 
             <div class="game-item3">
-                
+
+            
             </div>
 
             <div class="game-item4">
@@ -92,6 +95,13 @@
         </div>
     </div>
     <div class="console">
+        <div class="fermer">
+            <div class="closer">
+                <button>
+                    <i class="fa-solid fa-close" id=""> fermer </i>
+                </button>
+            </div>
+        </div>
         <div class="consoljeux-1">
             <div class="plateforme">
                 <div class="en-tete-plateforme">
@@ -103,16 +113,16 @@
                     </div>
                 </div>
                 <div class="corp-pateform">
-                    <button class="figures _t1 before" onclick="verifier('._t1','#fig1')"><img src="./src/img/SpaceCat.jpg" alt="" id="fig1"></button>
-                    <button class="figures _t2 before" onclick="verifier('._t2','#fig2')"><img src="./src/img/Wooloo.jpg" alt="" id="fig2"></button>
-                    <button class="figures _t3 before" onclick="verifier('._t3','#fig3')"><img src="./src/img/Wolf.jpg" alt="" id="fig3"></button>
+                    <button class="figures _t1 before" onclick="verifier('._t1','#fig1')"><img src="./gamesWCC/miniG/img/SpaceCat.jpg" alt="" id="fig1"></button>
+                    <button class="figures _t2 before" onclick="verifier('._t2','#fig2')"><img src="./gamesWCC/miniG/img/Wooloo.jpg" alt="" id="fig2"></button>
+                    <button class="figures _t3 before" onclick="verifier('._t3','#fig3')"><img src="./gamesWCC/miniG/img/Wolf.jpg" alt="" id="fig3"></button>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="./src/js/app.js"></script>
-    <script src="./src/js/miniGame.js"></script>
-    <script src="./src/js/launchGames.js"></script>
+    <script src="./gamesWCC/miniG/js/miniGame.js"></script>
+    <script src="./gamesWCC/miniG/js/launchGames.js"></script>
 </body>
 </html>

@@ -3,8 +3,9 @@ let select=(it)=>{
     return document.querySelector(it);
 }
 let liste=[
-    './src/img/Wooloo.jpg','./src/img/Wolf.jpg','./src/img/SpaceCat.jpg'
-]
+    './gamesWCC/miniG/img/Wooloo.jpg','./gamesWCC/miniG/img/Wolf.jpg','./gamesWCC/miniG/img/SpaceCat.jpg'
+];
+
 compare=select('#trouver');
 compare.src=liste[Math.floor(Math.random()*3)];
 
@@ -49,8 +50,11 @@ function lancer(){
     compare.src=liste[Math.floor(Math.random()*3)];
     Rand();
     select("._t1").classList.add('before')
+    select("._t1").style.background='#f9f9f9';
     select("._t2").classList.add('before')
+    select("._t2").style.background='#f9f9f9';
     select("._t3").classList.add('before')
+    select("._t3").style.background='#f9f9f9';
     finder=false;
 }
 

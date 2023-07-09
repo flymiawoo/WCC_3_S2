@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/console-jeux.css">
+    <title>jeux</title>
+</head>
+<body>
+    <div class="console">
+        <div class="closer">
+            <a href="../../index.html"><i class="fa-solid fa-navicon fa-close closeGame"> Fermer le jeux </i></a>
+        </div>
+        <div class="consoljeux-1">
+            <div class="plateforme">
+                <div class="en-tete-plateforme">
+                    <div class="texte-en-tete">
+                        <span>Retrouvez cette figure</span>
+                    </div>
+                    <div class="a-trouver">
+                        <img src="src/img/Wooloo.jpg" alt="no-image" id="trouver">
+                    </div>
+                </div>
+                <div class="corp-pateform">
+                    <button class="figures _t1 before" onclick="verifier('._t1','#fig1')"><img src="./img/SpaceCat.jpg" alt="" id="fig1"></button>
+                    <button class="figures _t2 before" onclick="verifier('._t2','#fig2')"><img src="./img/Wooloo.jpg" alt="" id="fig2"></button>
+                    <button class="figures _t3 before" onclick="verifier('._t3','#fig3')"><img src="./img/Wolf.jpg" alt="" id="fig3"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/miniGame.js"></script>
+    <!-- <script src="./js/launchGames.js"></script> -->
+
+</body>
+</html>

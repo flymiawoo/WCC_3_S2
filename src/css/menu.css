@@ -6,7 +6,7 @@
         top: -200%;
         left: 20px;
         background: var(--bgMenu);
-        backdrop-filter: blur(50px);
+        backdrop-filter: blur(10px);
         border-radius: 15px;
     transition: 0.3s;
     /* box-shadow: 5px 5px 10px var(--menuShadow1), -1px -1px 10px var(--menuShadow2); */

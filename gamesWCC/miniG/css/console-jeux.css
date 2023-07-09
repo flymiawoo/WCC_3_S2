@@ -1,0 +1,54 @@
+@import url(./jeuxDeFigure.css);
+
+.lanceur{
+    z-index: 2;
+}
+.console{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(38, 39, 40, 0.455);
+    backdrop-filter: blur(50px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* padding: 0 4%; */
+}
+.closer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    left: 0;
+    padding: 5px;
+    background: transparent;
+
+}
+.closer i{
+    background: transparent;
+    backdrop-filter: blur(50px);
+    padding: 5px;
+}
+
+.closeGame{
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.closeGame:hover{
+    background: rgba(228, 222, 222, 0.521);
+    backdrop-filter: blur(10px);
+    color: black;
+}
+
+.closer button{
+    background: transparent;
+    color: var(--White);
+}
+button{
+    border: none;
+}
